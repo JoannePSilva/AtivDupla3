@@ -25,8 +25,8 @@ import java.util.Scanner;
         boolean invalido = true;
         do {
             menu();
-            System.out.println("Digite uma opção:");
-            int opcao = Integer.parseInt(sc.nextLine());
+            int opcao = numero("Digite uma opção:");
+
             switch (opcao){
 
                 case 1:
